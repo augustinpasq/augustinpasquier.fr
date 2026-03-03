@@ -246,12 +246,12 @@ export default function Home() {
                             <span>Email</span>
                         </a>
 
-                        <a className="connections-item" href="https://www.github.com/augustin-pasq" target="_blank" rel="noreferrer">
+                        <a className="connections-item" href="https://www.github.com/augustinpasq" target="_blank" rel="noreferrer">
                             <SvgFactory item="github"/>
                             <span>GitHub</span>
                         </a>
 
-                        <a className="connections-item" href="https://www.linkedin.com/in/augustin-pasquier-354a07228/" target="_blank" rel="noreferrer">
+                        <a className="connections-item" href="https://www.linkedin.com/in/augustinpasquier-354a07228/" target="_blank" rel="noreferrer">
                             <SvgFactory item="linkedin"/>
                             <span>LinkedIn</span>
                         </a>

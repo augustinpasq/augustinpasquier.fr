@@ -122,7 +122,7 @@
             "MySQL"
           ],
           "description": "projects.personals.project1.description",
-          "url": "https://github.com/augustin-pasq/LJDP"
+          "url": "https://github.com/augustinpasq/LJDP"
         },
         {
           "name": "augustinpasquier.fr",
@@ -131,7 +131,7 @@
             "Next.js"
           ],
           "description": "projects.personals.project2.description",
-          "url": "https://github.com/augustin-pasq/augustinpasquier.fr"
+          "url": "https://github.com/augustinpasq/augustinpasquier.fr"
         },
         {
           "name": "Nuit de l'Info 2023",
@@ -140,7 +140,7 @@
             "PHP"
           ],
           "description": "projects.personals.project3.description",
-          "url": "https://github.com/augustin-pasq/nuit-info-2023"
+          "url": "https://github.com/augustinpasq/nuit-info-2023"
         },
         {
           "name": "Test Technique Alternance",
@@ -148,7 +148,7 @@
             "Android (Java)"
           ],
           "description": "projects.personals.project4.description",
-          "url": "https://github.com/augustin-pasq/Test-Technique-Alternance"
+          "url": "https://github.com/augustinpasq/Test-Technique-Alternance"
         },
         {
           "name": "Patrick Sébastien",
@@ -156,7 +156,7 @@
             "JavaScript"
           ],
           "description": "projects.personals.project5.description",
-          "url": "https://github.com/augustin-pasq/Patrick-Sebastien"
+          "url": "https://github.com/augustinpasq/Patrick-Sebastien"
         },
         {
           "name": "Évelyne Dhéliat",
@@ -164,7 +164,7 @@
             "JavaScript"
           ],
           "description": "projects.personals.project6.description",
-          "url": "https://github.com/augustin-pasq/Evelyne-Dheliat"
+          "url": "https://github.com/augustinpasq/Evelyne-Dheliat"
         }
       ]
     },
@@ -183,7 +183,7 @@
             "Neo4j"
           ],
           "description": "projects.university.project1.description",
-          "url": "https://github.com/augustin-pasq/projets-iut/tree/punto"
+          "url": "https://github.com/augustinpasq/projets-iut/tree/punto"
         },
         {
           "name": "Application ToDo Android",
@@ -191,7 +191,7 @@
             "Android (Java)"
           ],
           "description": "projects.university.project2.description",
-          "url": "https://github.com/augustin-pasq/projets-iut/tree/application-todo-android"
+          "url": "https://github.com/augustinpasq/projets-iut/tree/application-todo-android"
         },
         {
           "name": "Application ToDo Web",
@@ -199,7 +199,7 @@
             "Vue.js"
           ],
           "description": "projects.university.project3.description",
-          "url": "https://github.com/augustin-pasq/projets-iut/tree/application-todo-web"
+          "url": "https://github.com/augustinpasq/projets-iut/tree/application-todo-web"
         },
         {
           "name": "Convertisseur de température",
@@ -207,7 +207,7 @@
             "Android (Java)"
           ],
           "description": "projects.university.project4.description",
-          "url": "https://github.com/augustin-pasq/projets-iut/tree/convertisseur-temperature"
+          "url": "https://github.com/augustinpasq/projets-iut/tree/convertisseur-temperature"
         },
         {
           "name": "Application Météo",
@@ -216,7 +216,7 @@
             "Vue.js"
           ],
           "description": "projects.university.project5.description",
-          "url": "https://github.com/augustin-pasq/projets-iut/tree/application-meteo"
+          "url": "https://github.com/augustinpasq/projets-iut/tree/application-meteo"
         },
         {
           "name": "Projet NoSQL",
@@ -227,7 +227,7 @@
             "MongoDB"
           ],
           "description": "projects.university.project6.description",
-          "url": "https://github.com/augustin-pasq/projets-iut/tree/projet-nosql"
+          "url": "https://github.com/augustinpasq/projets-iut/tree/projet-nosql"
         },
         {
           "name": "SportTrack",
@@ -238,7 +238,7 @@
             "SQLite"
           ],
           "description": "projects.university.project7.description",
-          "url": "https://github.com/augustin-pasq/projets-iut/tree/sporttrack"
+          "url": "https://github.com/augustinpasq/projets-iut/tree/sporttrack"
         },
         {
           "name": "PNR",
@@ -248,7 +248,7 @@
             "MySQL"
           ],
           "description": "projects.university.project8.description",
-          "url": "https://github.com/augustin-pasq/SAE-PNR"
+          "url": "https://github.com/augustinpasq/SAE-PNR"
         },
         {
           "name": "Marienbad",
@@ -256,7 +256,7 @@
             "Java"
           ],
           "description": "projects.university.project9.description",
-          "url": "https://github.com/augustin-pasq/projets-iut/tree/marienbad"
+          "url": "https://github.com/augustinpasq/projets-iut/tree/marienbad"
         },
         {
           "name": "Collège Numérique 56",
@@ -264,7 +264,7 @@
             "HTML/CSS/JavaScript"
           ],
           "description": "projects.university.project10.description",
-          "url": "https://github.com/augustin-pasq/projets-iut/tree/college-numerique-56"
+          "url": "https://github.com/augustinpasq/projets-iut/tree/college-numerique-56"
         }
       ]
     },
