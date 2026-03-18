@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.0.0...v3.1.0) (2026-03-18)
+
+
+### Features
+
+* new content + ci ([a1adce0](https://github.com/augustinpasq/augustinpasquier.fr/commit/a1adce031818b35fc272e68b166ea23887dfe9e4))
+
 # 1.0.0 (2026-03-18)
 
 
