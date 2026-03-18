@@ -85,6 +85,11 @@
       "name": "Android",
       "value": 2,
       "logo": "android"
+    },
+    {
+      "name": "Docker",
+      "value": 2,
+      "logo": "docker"
     }
   ],
   "tools": [
@@ -119,7 +124,8 @@
             "React.js",
             "Next.js",
             "Prisma",
-            "MySQL"
+            "MySQL",
+            "Docker"
           ],
           "description": "projects.personals.project1.description",
           "url": "https://github.com/augustinpasq/LJDP"
@@ -128,7 +134,7 @@
           "name": "augustinpasquier.fr",
           "technos": [
             "React.js",
-            "Next.js"
+            "Docker"
           ],
           "description": "projects.personals.project2.description",
           "url": "https://github.com/augustinpasq/augustinpasquier.fr"
@@ -137,7 +143,8 @@
           "name": "Nuit de l'Info 2023",
           "technos": [
             "React.js",
-            "PHP"
+            "PHP",
+            "Docker"
           ],
           "description": "projects.personals.project3.description",
           "url": "https://github.com/augustinpasq/nuit-info-2023"
@@ -153,7 +160,8 @@
         {
           "name": "Patrick Sébastien",
           "technos": [
-            "JavaScript"
+            "JavaScript",
+            "Docker"
           ],
           "description": "projects.personals.project5.description",
           "url": "https://github.com/augustinpasq/Patrick-Sebastien"
@@ -161,7 +169,8 @@
         {
           "name": "Évelyne Dhéliat",
           "technos": [
-            "JavaScript"
+            "JavaScript",
+            "Docker"
           ],
           "description": "projects.personals.project6.description",
           "url": "https://github.com/augustinpasq/Evelyne-Dheliat"

@@ -1,0 +1,11 @@
+.git
+.github
+.idea
+assets
+node_modules
+.gitignore
+.releaserc.json
+CHANGELOG.md
+Dockerfile
+eslint.config.js
+README.md
