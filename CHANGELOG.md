@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.1.0...v3.2.0) (2026-03-19)
+
+
+### Features
+
+* add docker image version auto update in dokploy ([f1e4f91](https://github.com/augustinpasq/augustinpasquier.fr/commit/f1e4f913d3029ccace6812770d67df32bf99ef92))
+
 # [3.1.0](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.0.0...v3.1.0) (2026-03-18)
 
 
