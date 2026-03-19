@@ -1,3 +1,10 @@
+## [3.2.1](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.2.0...v3.2.1) (2026-03-19)
+
+
+### Bug Fixes
+
+* fix health check in image ([4bc3510](https://github.com/augustinpasq/augustinpasquier.fr/commit/4bc3510630c480ec7f40a6d1267491543e466553))
+
 # [3.2.0](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.1.0...v3.2.0) (2026-03-19)
 
 
