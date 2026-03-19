@@ -102,19 +102,32 @@ jobs:
           docker push ${FULL}:${VERSION}
 
   deploy:
-    needs: tag
+    needs: [release, tag]
     if: needs.release.outputs.published == 'true'
     runs-on: ubuntu-latest
     steps:
+      - name: Update Docker Image version
+        run: |
+          curl -s -X GET "${{ secrets.DOKPLOY_GET_APPLICATION_API_URL }}" \
+            -H "Content-Type: application/json" \
+            -H "x-api-key: ${{ secrets.DOKPLOY_API_KEY }}" | \
+            jq --arg version "${{ needs.release.outputs.version }}" \
+               '.dockerImage = "ghcr.io/augustinpasq/augustinpasquier.fr:" + $version' | \
+            curl -X POST "${{ secrets.DOKPLOY_POST_APPLICATION_API_URL }}" \
+              -H "Content-Type: application/json" \
+              -H "x-api-key: ${{ secrets.DOKPLOY_API_KEY }}" \
+              -d @-
+
       - name: Trigger Dokploy deployment
         run: |
+          jq -n \
+            --arg id "${{ github.event.head_commit.id }}" \
+            --arg message "${{ github.event.head_commit.message }}" \
+            '{
+              ref: "main",
+              head_commit: { id: $id, message: $message }
+            }' | \
           curl -X POST "${{ secrets.DOKPLOY_WEBHOOK_URL }}" \
-            -H 'Content-Type: application/json' \
+            -H "Content-Type: application/json" \
             -H "X-GitHub-Event: push" \
-            -d '{
-              "ref": "main",
-              "head_commit": {
-                "id": "${{ github.event.head_commit.id }}",
-                "message": "${{ github.event.head_commit.message }}"
-              }
-            }'
+            -d @-
