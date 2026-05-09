@@ -1,3 +1,10 @@
+## [3.2.2](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.2.1...v3.2.2) (2026-05-09)
+
+
+### Bug Fixes
+
+* update umami script tag ([abaa03f](https://github.com/augustinpasq/augustinpasquier.fr/commit/abaa03ffb22f2aee71cdb0bde1d7096001f745a6))
+
 ## [3.2.1](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.2.0...v3.2.1) (2026-03-19)
 
 
