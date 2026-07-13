@@ -1,3 +1,10 @@
+## [3.2.4](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.2.3...v3.2.4) (2026-07-13)
+
+
+### Bug Fixes
+
+* update umami website id ([a3d5b4a](https://github.com/augustinpasq/augustinpasquier.fr/commit/a3d5b4a008f8abc19c16db9b3bde7e5309dd6627))
+
 ## [3.2.3](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.2.2...v3.2.3) (2026-05-29)
 
 
