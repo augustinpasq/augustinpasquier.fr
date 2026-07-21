@@ -3,6 +3,13 @@
 
 ### Features
 
+* update content and ci ([0a7cdda](https://github.com/augustinpasq/augustinpasquier.fr/commit/0a7cddad91a2592d577358e35f8962807a23609a))
+
+# [3.3.0](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.2.4...v3.3.0) (2026-07-21)
+
+
+### Features
+
 * update content and ci ([b7c6dc2](https://github.com/augustinpasq/augustinpasquier.fr/commit/b7c6dc26813b2dc0491803ebf1dc445bccd1c292))
 
 # [3.3.0](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.2.4...v3.3.0) (2026-07-19)
