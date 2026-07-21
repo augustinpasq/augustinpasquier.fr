@@ -215,7 +215,7 @@ export default function Home() {
                             return (
                                 <TabPanel header={t(data.projects[category].tabTitle)} key={index}>
                                     <div className="projects">
-                                        {data.projects[category].content.map((project, projectIndex) => {
+                                        {[...data.projects[category].content].reverse().map((project, projectIndex) => {
                                             return (
                                                 <div key={projectIndex} className={`projects-item ${project.url ? "" : "project-no-repository"}`} onClick={() => window.open(project.url)}>
                                                     <span className="projects-item-title">{project.name}</span>

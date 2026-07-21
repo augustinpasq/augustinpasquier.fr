@@ -54,27 +54,30 @@ projects.text1: Que ce soit sur mon temps personnel, à l'université ou en entr
 projects.text2: Le code de chacun d'entre eux est disponible sur GitHub.
 
 projects.personals.tabTitle: Projets personnels
-projects.personals.project1.description: Jeu multijoueur en ligne de devinettes à base de photos
-projects.personals.project2.description: Portfolio
-projects.personals.project3.description: Application web produite à l'édition 2023 de la Nuit de l'Info
-projects.personals.project4.description: Application Android produite pour un test technique lors de la recherche d'alternance
-projects.personals.project5.description: Bot Discord pour souhaiter les anniversaires et faire du bruit dans les salons vocaux
-projects.personals.project6.description: Bot Discord de prévisions météo
+projects.personals.project1.description: Bot Discord de prévisions météo
+projects.personals.project2.description: Bot Discord pour souhaiter les anniversaires et faire du bruit dans les salons vocaux
+projects.personals.project3.description: Application Android produite pour un test technique lors de la recherche d'alternance
+projects.personals.project4.description: Application web produite à l'édition 2023 de la Nuit de l'Info
+projects.personals.project5.description: Portfolio
+projects.personals.project6.description: Jeu multijoueur en ligne de devinettes à base de photos
+projects.personals.project7.description: Infrastructure GitOps basée sur K3s, Flux, Traefik, cert-manager et SOPS pour un VPS Oracle Cloud
 
 projects.university.tabTitle: Projets universitaires
-projects.university.project1.description: Implémentation du jeu de société Punto avec 4 bases de données
-projects.university.project2.description: Application Android de gestion des tâches (ToDo-List)
-projects.university.project3.description: Application web de gestion des tâches (ToDo-List)
-projects.university.project4.description: Application Android pour convertir les degrés Celsius en Fahrenheit (et inversement)
-projects.university.project5.description: Application web de prévisions météo
-projects.university.project6.description: Panneau d'administration/Catalogue pour un concessionaire automobile
-projects.university.project7.description: Application web de suivi d'activités sportives
-projects.university.project8.description: Application de bureau de saisie d'observations de faune locale
-projects.university.project9.description: Numérisation du jeu de Marienbad
-projects.university.project10.description: Site vitrine pour l'opération Collège Numérique 56
+projects.university.project1.description: Site vitrine pour l'opération Collège Numérique 56
+projects.university.project2.description: Numérisation du jeu de Marienbad
+projects.university.project3.description: Application de bureau de saisie d'observations de faune locale
+projects.university.project4.description: Application web de suivi d'activités sportives
+projects.university.project5.description: Panneau d'administration/Catalogue pour un concessionaire automobile
+projects.university.project6.description: Application web de prévisions météo
+projects.university.project7.description: Application Android pour convertir les degrés Celsius en Fahrenheit (et inversement)
+projects.university.project8.description: Application web de gestion des tâches (ToDo-List)
+projects.university.project9.description: Application Android de gestion des tâches (ToDo-List)
+projects.university.project10.description: Implémentation du jeu de société Punto avec 4 bases de données
 
 projects.professionals.tabTitle: Projets professionnels
 projects.professionals.project1.description: Contribution aux applications web et Android Imagina ainsi qu'au site vitrine de l'entreprise
+projects.professionals.project2.description: Déploiement d'applications conteneurisées et de CNFs dans un cluster Kubernetes en suivant la méthodologie GitOps
+projects.professionals.project3.description: Développement d'un outil de troubleshooting en TUI pour cluster Kubernetes avec Flux
 
 # Contact
 contact.title: Envie de me contacter ?

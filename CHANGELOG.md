@@ -1,3 +1,17 @@
+# [3.3.0](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.2.4...v3.3.0) (2026-07-21)
+
+
+### Features
+
+* update content and ci ([b7c6dc2](https://github.com/augustinpasq/augustinpasquier.fr/commit/b7c6dc26813b2dc0491803ebf1dc445bccd1c292))
+
+# [3.3.0](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.2.4...v3.3.0) (2026-07-19)
+
+
+### Features
+
+* update content and ci ([c8f0a3a](https://github.com/augustinpasq/augustinpasquier.fr/commit/c8f0a3a430662e9355545d11b8cabc9f069f61ee))
+
 ## [3.2.4](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.2.3...v3.2.4) (2026-07-13)
 
 

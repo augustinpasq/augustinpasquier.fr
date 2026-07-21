@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-24.04-arm
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Login to GHCR
         uses: docker/login-action@v4
@@ -42,13 +42,13 @@ jobs:
       version:   ${{ steps.release.outputs.version }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           persist-credentials: false
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 24
 
@@ -95,8 +95,34 @@ jobs:
 
       - name: Tag and push versioned images
         run: |
-          VERSION="${{ needs.release.outputs.version }}"      
+          VERSION="${{ needs.release.outputs.version }}"
           FULL="ghcr.io/augustinpasq/augustinpasquier.fr"
           docker pull ${FULL}:latest
           docker tag  ${FULL}:latest ${FULL}:${VERSION}
           docker push ${FULL}:${VERSION}
+
+  deploy:
+    needs: [release, tag]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ secrets.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          repositories: vps-infrastructure
+
+      - name: Update image version on vps-infrastructure
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          VERSION="${{ needs.release.outputs.version }}"
+          FILE="repos/augustinpasq/vps-infrastructure/contents/apps/augustinpasquier-fr/deployment.yaml"
+          gh api "$FILE" > current.json
+          jq -r .content current.json | base64 -d |
+            sed "s|ghcr.io/augustinpasq/augustinpasquier.fr:.*|ghcr.io/augustinpasq/augustinpasquier.fr:${VERSION}|" > deployment.yaml
+          gh api -X PUT "$FILE" \
+            -f message="chore(deps): update ghcr.io/augustinpasq/augustinpasquier.fr docker tag to v${VERSION}" \
+            -f content="$(base64 -w0 deployment.yaml)" \
+            -f sha="$(jq -r .sha current.json)"

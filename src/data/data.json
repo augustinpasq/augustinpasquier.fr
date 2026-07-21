@@ -77,9 +77,29 @@
       "logo": "java"
     },
     {
-      "name": "Python",
+      "name": "Go",
       "value": 3,
+      "logo": "go"
+    },
+    {
+      "name": "Python",
+      "value": 2,
       "logo": "python"
+    },
+    {
+      "name": "Docker",
+      "value": 3,
+      "logo": "docker"
+    },
+    {
+      "name": "Kubernetes",
+      "value": 2,
+      "logo": "kubernetes"
+    },
+    {
+      "name": "Flux",
+      "value": 2,
+      "logo": "flux"
     },
     {
       "name": "Android",
@@ -87,9 +107,9 @@
       "logo": "android"
     },
     {
-      "name": "Docker",
-      "value": 2,
-      "logo": "docker"
+      "name": "Swift",
+      "value": 1,
+      "logo": "swift"
     }
   ],
   "tools": [
@@ -119,25 +139,30 @@
       "tabTitle": "projects.personals.tabTitle",
       "content": [
         {
-          "name": "LJDP",
+          "name": "Évelyne Dhéliat",
           "technos": [
-            "React.js",
-            "Next.js",
-            "Prisma",
-            "MySQL",
+            "JavaScript",
             "Docker"
           ],
           "description": "projects.personals.project1.description",
-          "url": "https://github.com/augustinpasq/LJDP"
+          "url": "https://github.com/augustinpasq/Evelyne-Dheliat"
         },
         {
-          "name": "augustinpasquier.fr",
+          "name": "Patrick Sébastien",
           "technos": [
-            "React.js",
+            "JavaScript",
             "Docker"
           ],
           "description": "projects.personals.project2.description",
-          "url": "https://github.com/augustinpasq/augustinpasquier.fr"
+          "url": "https://github.com/augustinpasq/Patrick-Sebastien"
+        },
+        {
+          "name": "Test Technique Alternance",
+          "technos": [
+            "Android (Java)"
+          ],
+          "description": "projects.personals.project3.description",
+          "url": "https://github.com/augustinpasq/Test-Technique-Alternance"
         },
         {
           "name": "Nuit de l'Info 2023",
@@ -146,40 +171,126 @@
             "PHP",
             "Docker"
           ],
-          "description": "projects.personals.project3.description",
+          "description": "projects.personals.project4.description",
           "url": "https://github.com/augustinpasq/nuit-info-2023"
         },
         {
-          "name": "Test Technique Alternance",
+          "name": "augustinpasquier.fr",
           "technos": [
-            "Android (Java)"
-          ],
-          "description": "projects.personals.project4.description",
-          "url": "https://github.com/augustinpasq/Test-Technique-Alternance"
-        },
-        {
-          "name": "Patrick Sébastien",
-          "technos": [
-            "JavaScript",
+            "React.js",
             "Docker"
           ],
           "description": "projects.personals.project5.description",
-          "url": "https://github.com/augustinpasq/Patrick-Sebastien"
+          "url": "https://github.com/augustinpasq/augustinpasquier.fr"
         },
         {
-          "name": "Évelyne Dhéliat",
+          "name": "LJDP",
           "technos": [
-            "JavaScript",
+            "React.js",
+            "Next.js",
+            "Prisma",
+            "MySQL",
             "Docker"
           ],
           "description": "projects.personals.project6.description",
-          "url": "https://github.com/augustinpasq/Evelyne-Dheliat"
+          "url": "https://github.com/augustinpasq/LJDP"
+        },
+        {
+          "name": "Infrastructure du VPS",
+          "technos": [
+            "Kubernetes",
+            "Flux",
+            "SOPS"
+          ],
+          "description": "projects.personals.project7.description",
+          "url": "https://github.com/augustinpasq/vps-infrastructure"
         }
       ]
     },
     "university": {
       "tabTitle": "projects.university.tabTitle",
       "content": [
+        {
+          "name": "Collège Numérique 56",
+          "technos": [
+            "HTML/CSS/JavaScript"
+          ],
+          "description": "projects.university.project1.description",
+          "url": "https://github.com/augustinpasq/projets-iut/tree/college-numerique-56"
+        },
+        {
+          "name": "Marienbad",
+          "technos": [
+            "Java"
+          ],
+          "description": "projects.university.project2.description",
+          "url": "https://github.com/augustinpasq/projets-iut/tree/marienbad"
+        },
+        {
+          "name": "PNR",
+          "technos": [
+            "Java",
+            "JavaFX",
+            "MySQL"
+          ],
+          "description": "projects.university.project3.description",
+          "url": "https://github.com/augustinpasq/SAE-PNR"
+        },
+        {
+          "name": "SportTrack",
+          "technos": [
+            "HTML/CSS",
+            "Express.js",
+            "PHP",
+            "SQLite"
+          ],
+          "description": "projects.university.project4.description",
+          "url": "https://github.com/augustinpasq/projets-iut/tree/sporttrack"
+        },
+        {
+          "name": "Projet NoSQL",
+          "technos": [
+            "React.js",
+            "Next.js",
+            "Prisma",
+            "MongoDB"
+          ],
+          "description": "projects.university.project5.description",
+          "url": "https://github.com/augustinpasq/projets-iut/tree/projet-nosql"
+        },
+        {
+          "name": "Application Météo",
+          "technos": [
+            "HTML/CSS/JavaScript",
+            "Vue.js"
+          ],
+          "description": "projects.university.project6.description",
+          "url": "https://github.com/augustinpasq/projets-iut/tree/application-meteo"
+        },
+        {
+          "name": "Convertisseur de température",
+          "technos": [
+            "Android (Java)"
+          ],
+          "description": "projects.university.project7.description",
+          "url": "https://github.com/augustinpasq/projets-iut/tree/convertisseur-temperature"
+        },
+        {
+          "name": "Application ToDo Web",
+          "technos": [
+            "Vue.js"
+          ],
+          "description": "projects.university.project8.description",
+          "url": "https://github.com/augustinpasq/projets-iut/tree/application-todo-web"
+        },
+        {
+          "name": "Application ToDo Android",
+          "technos": [
+            "Android (Java)"
+          ],
+          "description": "projects.university.project9.description",
+          "url": "https://github.com/augustinpasq/projets-iut/tree/application-todo-android"
+        },
         {
           "name": "Punto",
           "technos": [
@@ -191,89 +302,8 @@
             "SQLite",
             "Neo4j"
           ],
-          "description": "projects.university.project1.description",
-          "url": "https://github.com/augustinpasq/projets-iut/tree/punto"
-        },
-        {
-          "name": "Application ToDo Android",
-          "technos": [
-            "Android (Java)"
-          ],
-          "description": "projects.university.project2.description",
-          "url": "https://github.com/augustinpasq/projets-iut/tree/application-todo-android"
-        },
-        {
-          "name": "Application ToDo Web",
-          "technos": [
-            "Vue.js"
-          ],
-          "description": "projects.university.project3.description",
-          "url": "https://github.com/augustinpasq/projets-iut/tree/application-todo-web"
-        },
-        {
-          "name": "Convertisseur de température",
-          "technos": [
-            "Android (Java)"
-          ],
-          "description": "projects.university.project4.description",
-          "url": "https://github.com/augustinpasq/projets-iut/tree/convertisseur-temperature"
-        },
-        {
-          "name": "Application Météo",
-          "technos": [
-            "HTML/CSS/JavaScript",
-            "Vue.js"
-          ],
-          "description": "projects.university.project5.description",
-          "url": "https://github.com/augustinpasq/projets-iut/tree/application-meteo"
-        },
-        {
-          "name": "Projet NoSQL",
-          "technos": [
-            "React.js",
-            "Next.js",
-            "Prisma",
-            "MongoDB"
-          ],
-          "description": "projects.university.project6.description",
-          "url": "https://github.com/augustinpasq/projets-iut/tree/projet-nosql"
-        },
-        {
-          "name": "SportTrack",
-          "technos": [
-            "HTML/CSS",
-            "Express.js",
-            "PHP",
-            "SQLite"
-          ],
-          "description": "projects.university.project7.description",
-          "url": "https://github.com/augustinpasq/projets-iut/tree/sporttrack"
-        },
-        {
-          "name": "PNR",
-          "technos": [
-            "Java",
-            "JavaFX",
-            "MySQL"
-          ],
-          "description": "projects.university.project8.description",
-          "url": "https://github.com/augustinpasq/SAE-PNR"
-        },
-        {
-          "name": "Marienbad",
-          "technos": [
-            "Java"
-          ],
-          "description": "projects.university.project9.description",
-          "url": "https://github.com/augustinpasq/projets-iut/tree/marienbad"
-        },
-        {
-          "name": "Collège Numérique 56",
-          "technos": [
-            "HTML/CSS/JavaScript"
-          ],
           "description": "projects.university.project10.description",
-          "url": "https://github.com/augustinpasq/projets-iut/tree/college-numerique-56"
+          "url": "https://github.com/augustinpasq/projets-iut/tree/punto"
         }
       ]
     },
@@ -292,6 +322,29 @@
           ],
           "description": "projects.professionals.project1.description",
           "url": "https://imagina.com"
+        },
+        {
+          "name": "NIF Tooling Zone",
+          "technos": [
+            "Kubernetes",
+            "Flux"
+          ],
+          "description": "projects.professionals.project2.description",
+          "url": "https://gitlab.com/Orange-OpenSource/k8s-tz"
+        },
+        {
+          "name": "NIF CLI",
+          "technos": [
+            "Go",
+            "Bubble Tea",
+            "Bubbles",
+            "Lip Gloss",
+            "Cobra",
+            "Kubernetes",
+            "Flux"
+          ],
+          "description": "projects.professionals.project3.description",
+          "url": ""
         }
       ]
     }

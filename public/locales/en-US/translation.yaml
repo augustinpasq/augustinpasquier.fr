@@ -54,27 +54,30 @@ projects.text1: Whether during my personal time, at university, or in a company,
 projects.text2: The source code for each of them is available on GitHub.
 
 projects.personals.tabTitle: Personal projects
-projects.personals.project1.description: Online multiplayer guessing game based on photos
-projects.personals.project2.description: Portfolio
-projects.personals.project3.description: Web application created during the 2023 edition of "La Nuit de l’Info"
-projects.personals.project4.description: Android app developed for a technical test during my apprenticeship research
-projects.personals.project5.description: Discord bot to wish birthdays and make noise in voice channels
-projects.personals.project6.description: Discord bot for weather forecasts
+projects.personals.project1.description: Discord bot for weather forecasts
+projects.personals.project2.description: Discord bot to wish birthdays and make noise in voice channels
+projects.personals.project3.description: Android app developed for a technical test during my apprenticeship research
+projects.personals.project4.description: Web application created during the 2023 edition of "La Nuit de l’Info"
+projects.personals.project5.description: Portfolio
+projects.personals.project6.description: Online multiplayer guessing game based on photos
+projects.personals.project7.description: GitOps infrastructure based on K3s, Flux, Traefik, cert-manager and SOPS for an Oracle Cloud VPS
 
 projects.university.tabTitle: University projects
-projects.university.project1.description: Implementation of the board game Punto with 4 different databases
-projects.university.project2.description: Android task management app (To-Do List)
-projects.university.project3.description: Web task management app (To-Do List)
-projects.university.project4.description: Android app to convert Celsius to Fahrenheit (and vice versa)
-projects.university.project5.description: Web application for weather forecasts
-projects.university.project6.description: Admin panel and catalog for a car dealership
-projects.university.project7.description: Web app for tracking sports activities
-projects.university.project8.description: Desktop application for recording local wildlife observations
-projects.university.project9.description: Digital version of the Marienbad game
-projects.university.project10.description: Showcase website for the "Collège Numérique 56" initiative
+projects.university.project1.description: Showcase website for the "Collège Numérique 56" initiative
+projects.university.project2.description: Digital version of the Marienbad game
+projects.university.project3.description: Desktop application for recording local wildlife observations
+projects.university.project4.description: Web app for tracking sports activities
+projects.university.project5.description: Admin panel and catalog for a car dealership
+projects.university.project6.description: Web application for weather forecasts
+projects.university.project7.description: Android app to convert Celsius to Fahrenheit (and vice versa)
+projects.university.project8.description: Web task management app (To-Do List)
+projects.university.project9.description: Android task management app (To-Do List)
+projects.university.project10.description: Implementation of the board game Punto with 4 different databases
 
 projects.professionals.tabTitle: Professional projects
 projects.professionals.project1.description: Contribution to the Imagina web and Android applications as well as the company’s showcase website
+projects.professionals.project2.description: Containerized applications and CNFs deployment in a Kubernetes cluster following the GitOps methodology
+projects.professionals.project3.description: Development of a troubleshooting tool in TUI for Kubernetes clusters with Flux
 
 # Contact
 contact.title: Want to get in touch?
