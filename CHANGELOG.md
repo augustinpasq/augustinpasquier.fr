@@ -1,3 +1,10 @@
+# [3.4.0](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.3.0...v3.4.0) (2026-11-17)
+
+
+### Features
+
+* add charset meta tag to index.html ([551de0d](https://github.com/augustinpasq/augustinpasquier.fr/commit/551de0da563541c0239ee37db4f74ffa47905f4b))
+
 # [3.3.0](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.2.4...v3.3.0) (2026-07-21)
 
 
