@@ -1,3 +1,10 @@
+# [3.5.0](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.4.0...v3.5.0) (2026-11-21)
+
+
+### Features
+
+* add nginx configuration and canonical link to index.html ([c7c9785](https://github.com/augustinpasq/augustinpasquier.fr/commit/c7c9785ab57ad1db90a6c0a8329e51b898990cc2))
+
 # [3.4.0](https://github.com/augustinpasq/augustinpasquier.fr/compare/v3.3.0...v3.4.0) (2026-11-17)
 
 
