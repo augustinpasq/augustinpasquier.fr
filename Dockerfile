@@ -14,6 +14,7 @@ LABEL org.opencontainers.image.source=https://github.com/augustinpasq/augustinpa
 
 WORKDIR /app
 
+COPY config/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/dist /usr/share/nginx/html/
 
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
